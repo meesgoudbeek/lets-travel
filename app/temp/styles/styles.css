@@ -704,7 +704,7 @@ a {
 .headline--narrow {
         max-width: 500px;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; 
     }
 
 .headline--light {
@@ -758,7 +758,7 @@ a {
     }
 
 .row__b-margin-until-medium {
-        margin-bottom: 1rem;
+        margin-bottom: 1rem; 
     }
 
 @media (min-width: 800px) {
@@ -769,7 +769,7 @@ a {
         }
 
         .row__medium-4 {
-            float: left;
+            float: left; 
             width: 33.33%
         }
 
@@ -1333,4 +1333,18 @@ Instead edit gulp/templates/sprite. */
             padding: 12px 0;
             background-color: transparent
     }
+    }
+
+.reveal-item {
+    opacity: 0;
+    -webkit-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+}
+
+.reveal-item--is-visible {
+        opacity: 1; 
+        -webkit-transform: scale(1); 
+                transform: scale(1);
     }
