@@ -86,7 +86,7 @@
         }
         &>div {
             float: none;
-            display: flex;
+            display: flex; 
         }
     }
 }
